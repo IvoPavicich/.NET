@@ -1,21 +1,17 @@
 ﻿
 
-Console.Clear();
-Console.WriteLine("Por favor ingrese su nombre");
-var nombre = Console.ReadLine();
-Console.WriteLine($"HOLA {nombre}!!");
-Console.WriteLine("¿Desea continuar?");
-var nom = nombre;
-var resp="";
+
+var resp="S";
 do {
-    resp = Console.ReadLine();
+    
     if (resp.ToUpper() == "S")
     {
         Console.Clear();
         Console.WriteLine("Por favor ingrese su nombre");
-        nom = Console.ReadLine();
+        var nom = Console.ReadLine();
         Console.WriteLine($"HOLA {nom}!!");
         Console.WriteLine("¿Desea continuar?");
+        resp = Console.ReadLine();
     }
     if (resp.ToUpper() == "N")
     {
@@ -23,7 +19,7 @@ do {
     }
     else if(resp.ToUpper()!= "N" && resp.ToUpper() != "S")
     {
-        Console.WriteLine("no valido");
+        Console.WriteLine("Opción no válida");
         resp= "N";
     }
 } while (resp.ToUpper()!= "N");
