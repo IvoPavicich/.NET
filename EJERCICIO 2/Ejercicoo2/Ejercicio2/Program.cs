@@ -1,5 +1,5 @@
 ﻿
-int numeroSecreto = new Random(DateTime.Now.Millisecond).Next(1,3);/*se genera un numero aleatorio entre 1 y 20*/
+int numeroSecreto = new Random(DateTime.Now.Millisecond).Next(1,21);/*se genera un numero aleatorio entre 1 y 20*/
 Console.WriteLine(numeroSecreto);
 Console.WriteLine("¿Cuál es el número secreto?");
 int intentos=0;
