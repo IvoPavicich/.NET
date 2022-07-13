@@ -101,15 +101,7 @@ for (int x=0;x<4;x++)
             }
         }
 
-        /*Columnas que solo tienen un numero distinto de cero*/
-        //var columnasConSoloNumero = 0;
-        //for (int j = 0; j < 9; j++) 
-        //{
-        //    if (noCerosEnColumnas[j] == 1) 
-        //    {
-        //        columnasConSoloNumero++;
-        //    }
-        //}
+        
         
         if (cerosEnFilas==4 || cerosEnColumnas==2) 
         {
