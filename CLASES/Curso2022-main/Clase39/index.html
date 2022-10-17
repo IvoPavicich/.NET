@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="./css/bootstrap.css" rel="stylesheet" crossorigin="anonymous" />
+  </head>
+
+  <body>
+    <div class="container" style="background-color: gray">
+      <h1 class="text-danger">Hello, world!</h1>
+    </div>
+    <div class="container-sm bg-danger">100% wide until small breakpoint</div>
+    <div class="container-md bg-success">100% wide until medium breakpoint</div>
+    <div class="container-lg bg-warning">100% wide until large breakpoint</div>
+    <div class="container-xl bg-info">
+      100% wide until extra large breakpoint
+    </div>
+    <div class="container-xxl bg-danger">
+      100% wide until extra extra large breakpoint
+    </div>
+
+    <div class="container-fluid bg-info">container fluid</div>
+    <br />
+    <br />
+    <div class="container text-center">
+      <div class="row">
+        <div class="col bg-success">Column</div>
+        <div class="col bg-info">Column</div>
+        <div class="col bg-success">Column</div>
+      </div>
+    </div>
+    <br>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-3 bg-primary">
+          Level 1: .col-sm-3
+        </div>
+        <div class="col-sm-9 bg-warning">
+          Level 1: .col-sm-9
+          <div class="row">
+            <div class="col-8 col-sm-6 bg-success">Level 2: .col-8 .col-sm-6</div>
+            <div class="col-4 col-sm-6 bg-info">Level 3: .col-4 .col-sm-6</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.js" crossorigin="anonymous"></script>
+  </body>
+
+</html>
